@@ -53,10 +53,10 @@ Built a segmentation model for automated quantification of cellularity in bone m
 ### Nexum: a scalable ML serving platform for Radboudumc
 As a research software engineer (RSE) at Radboudumc from February 2025 to March 2026, I helped build _Nexum_, a containerised framework for connecting our PACS/IMS to a compute backend. Nexum was designed to enable inference of any containerised algorithm on anonymized slides in a scalable and anonymous manner. To achieve this, we built a Docker Compose stack consisting of a broker and compute workers coupled to an asynchronous Celery queue. The workers could be horizontally scaled by launching more GPU instances on whatever (cloud) hardware is available. Nginx served as the central reverse proxy, routing traffic from external clients (the QA officer-facing dashboard and the PACS) to the internal services. Job metadata and results were persisted in MongoDB, accessible via a Mongo Express admin interface. 
 
-<div style="display:flex;gap:20px;justify-content:center;align-items:center;flex-wrap:wrap;">
-	<img src="assets/Nexum diagram.png" alt="Diagram of Nexum's containers" style="max-width:50%;height:auto;" />
-	<img src="assets/Sectra screenshot.png" alt="Screenshot of algorithm visualization in PACS viewer" style="max-width:30%;height:auto;" />
-</div>
+<table><tr>
+<td><img src="assets/Nexum diagram.png" alt="Diagram of Nexum's containers" width="450" /></td>
+<td><img src="assets/Sectra screenshot.png" alt="Screenshot of algorithm visualization in PACS viewer" width="270" /></td>
+</tr></table>
 
 ## 🎯 Skills
 
